@@ -1,0 +1,27 @@
+body {
+  padding: 70px;
+  padding-bottom: 0px;
+  background-color: #eeeeee;
+}
+body .jumbotron {
+  background-color: #F8F8F8;
+  padding-bottom: 0;
+}
+body .jumbotron p {
+  font-size: 15px;
+  font-weight: 200;
+}
+body hr {
+  border-color: #bbbbbb;
+}
+body .row .col-md-4 #insLink {
+  position: relative;
+  top: 180px;
+}
+body .row .col-md-4 #formIns {
+  position: relative;
+  top: -1000px;
+}
+body .alert {
+  display: none;
+}

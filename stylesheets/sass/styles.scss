@@ -1,0 +1,34 @@
+@import "compass";
+body{
+
+	padding: 70px;
+	padding-bottom: 0px;
+	background-color: darken(#EEE,0);
+	
+	.jumbotron{
+		background-color: #F8F8F8;
+		padding-bottom: 0;
+		p{
+			font-size: 15px;
+			font-weight: 200;
+		}
+	}
+	hr{
+		border-color: darken(#EEEEEE ,20);
+	}
+	.row{
+		.col-md-4{
+			#insLink{
+				position: relative;
+				top:180px;
+			}
+			#formIns{
+				position: relative;
+				top:-1000px
+			}
+		}
+	}
+	.alert{
+		display: none;
+	}
+}
